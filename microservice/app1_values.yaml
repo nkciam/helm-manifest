@@ -1,0 +1,9 @@
+appName: app1-nginx
+appImage: aksdevopsacr123.azurecr.io/custom2aksnginxapp1
+appVersion: 10
+appReplicas: 1
+containerPort: 80
+appSecretname: aksdevopsacr1231597ca22-auth
+
+servicePort: 80
+serviceType: LoadBalancer
